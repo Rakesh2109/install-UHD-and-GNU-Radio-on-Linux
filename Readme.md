@@ -343,7 +343,8 @@ Next, you can optionally run some basic tests to verify that the build process c
 ```
 #### One Test may be failed due to version of volk 
 
-##### Just replace that error python py  file from latest version of gnuradio github link 
+##### Just replace that error python py  file from latest version of gnuradio
+##### You will find that file in  gnuradio github
 
 
 Next, install GNU Radio, using the default install prefix, which will install GNU Radio under the /usr/local/lib folder. You need to run this as root due to the permissions on that folder.
