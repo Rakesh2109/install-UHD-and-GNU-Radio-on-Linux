@@ -1,4 +1,4 @@
-# Building and Installing the USRP Open-Source Toolchain (UHD and GNU Radio) on Linux
+# Building and Installing the USRP Open-Source Toolchain (UHD and GNU Radio) on  Ubuntu 22.04
 
 ### Before building UHD and GNU Radio, you need to make sure that all the dependencies are first installed.
 
