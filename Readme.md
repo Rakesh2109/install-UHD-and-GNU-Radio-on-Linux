@@ -291,6 +291,8 @@ CMake Error at CMakeLists.txt:312 (message):
 Download VOLK: You can download VOLK from the official website or use a specific release from its repository. For example, to download version 3.1.2
 
 [Vector-Optimized Library of Kernels](https://www.libvolk.org/release-v312.html)
+
+
 First, make a folder to hold the repository.
 ```bash 
 cd $HOME
