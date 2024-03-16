@@ -1,0 +1,15 @@
+# DPDK Installation Guide
+
+Follow these step-by-step instructions to install DPDK on a Linux system:
+
+## 1. Download DPDK
+
+Visit the [DPDK website](https://www.dpdk.org/) and navigate to the "Downloads" section. Download the latest stable release of DPDK.
+
+## 2. Install Dependencies
+
+### Ubuntu/Debian:
+
+```bash
+sudo apt-get update
+sudo apt-get install build-essential linux-headers-$(uname -r) libnuma-dev
