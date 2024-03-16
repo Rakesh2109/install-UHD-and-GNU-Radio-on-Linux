@@ -1,0 +1,4 @@
+Before building UHD and GNU Radio, you need to make sure that all the dependencies are first installed.
+However, before installing any dependencies, you should first make sure that all the packages that are already installed on your system are up-to-date. You can do this from a GUI, or from the command-line, as shown below.
+On Ubuntu systems, run: 
+
