@@ -323,29 +323,34 @@ Linux OS: Link and cache shared library
 ```bash
 sudo ldconfig
 ```
-
 volk_profile will profile your system so that the best kernel is used
-
 ```bash 
 sudo volk_profile
 ```
-
 Now
 ```bash 
 cd workarea/gnuradi/build
 cmake ../
 make
 ```
-
 Next, you can optionally run some basic tests to verify that the build process completed properly.
 ``` bash 
  make test
 ```
-#### One Test may be failed due to version of volk 
+#### Note : If 120 test not working due to memory issue. Run suod make install and make test
+```bash
+sudo make install
+make test
+```
+#### One Test may be failed due to version of volk (qa_fir_filter.py)
+
+File can be found in Home/gnuradio/gr-filter/python/filter/
 
 ##### Just replace that error python py  file from latest version of gnuradio
-##### You will find that file in  gnuradio github
 
+##### You will find that file in in the below link
+
+[GNU Radio repository on GitHub](https://github.com/gnuradio/gnuradio/tree/v3.10.9.2/gr-filter/python/filter)
 
 Next, install GNU Radio, using the default install prefix, which will install GNU Radio under the /usr/local/lib folder. You need to run this as root due to the permissions on that folder.
 ```bahs
