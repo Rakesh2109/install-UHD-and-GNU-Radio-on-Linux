@@ -51,7 +51,7 @@ After identifying the version and corresponding release tag you need, check it o
 
    #### Example: For UHD 4.6.0.0
 ```bash
-git checkout v3.14.0.0
+git checkout v4.6.0.0
 ```
 Next, create a build folder within the repository.
 ```bash
@@ -263,7 +263,7 @@ cd gnuradio
 ```
 To checkout the v3.10.7.0 branch:
 ```bash
-git checkout v3.10.7.4
+git checkout v3.10.7.0
 ```
 Next, update the submodules:
 ```bash 
@@ -311,9 +311,9 @@ Next, create a build folder within the repository, invoke CMake, and build volk:
 ```bash
 mkdir build
 cd build
-cmake ..
-make
-make test
+sudo cmake ..
+sudo make
+sudo make test
 sudo make install
 ```
 Note : You might want to explore "make -j[SOMEVALUE]" options for your multicore CPU.
@@ -327,7 +327,7 @@ sudo ldconfig
 volk_profile will profile your system so that the best kernel is used
 
 ```bash 
-volk_profile
+sudo volk_profile
 ```
 
 Now
