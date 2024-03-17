@@ -1,4 +1,5 @@
 # Building and Installing the USRP Open-Source Toolchain (UHD and GNU Radio) on  Ubuntu 22.04
+# Note  UHD verison 4.6.0 and GNU v3.10.7.0 (tested) 
 
 ### Before building UHD and GNU Radio, you need to make sure that all the dependencies are first installed.
 
